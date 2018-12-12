@@ -1,0 +1,23 @@
+This is the yinit font, Old German decorative capital letters (only),
+created as a Metafont font by Yannis Haralambous ca.1994, version of
+2015/01/09.  It is released to the public domain.
+
+The yinit.pdf font chart was created by running (more or less):
+  mf '\mode:=ljfour;input yinit' && gftopk yinit
+  echo '\table\end' | tex testfont
+  dvips testfont && ps2pdf testfont.ps yinit.pdf
+There is no other documentation (available or needed).
+
+Historical note 1: Andreas Schrell made a modified driver file,
+yinitas.mf, and a LaTeX file initials.sty.  These are now available on
+CTAN separate from this directory (they used to be merged together).
+
+Historical note 2: since inception, TeX Live contained a stub driver
+file, yinitdd.mf, which merely generated the letter D.  At Yannis'
+suggestion, it has now been removed.
+
+Historical note 3: yinit was re-uploaded to CTAN in January 2015 by
+Karl Berry, including this README, after discussions with Yannis about
+the license and other points above.  No changes to the actual font,
+either metrics or glyphs, but because of the license clarification,
+the release date/version is explicitly mentioned above.
