@@ -1,9 +1,15 @@
-This is the yinit font, Old German decorative capital letters (only),
-created as a Metafont font by Yannis Haralambous ca.1994, version of
-2015/01/09.  It is released to the public domain.
+yinit font
+==========
+
+Old German decorative capital letters (only)
+
+Version: 2019-01-24
+Public Domain
+
+Created by Yannis Haralambous ca. 1994 as Metafont font.
 
 The yinit.pdf font chart was created by running (more or less):
-  mf '\mode:=ljfour;input yinit' && gftopk yinit
+  mf '\mode:=ljfour;input yinit' && gftopk yinit.600pk
   echo '\table\end' | tex testfont
   dvips testfont && ps2pdf testfont.ps yinit.pdf
 There is no other documentation (available or needed).
@@ -26,7 +32,7 @@ the release date/version is explicitly mentioned above.
 Changes after 2015
 ==================
 
-20180124
+20190124
 
 In agreement with Yannis Haralambous, the following changes were made
 to allow using yinit fonts with dropcaps package. The changes are
