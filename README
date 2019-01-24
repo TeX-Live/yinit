@@ -21,3 +21,17 @@ Karl Berry, including this README, after discussions with Yannis about
 the license and other points above.  No changes to the actual font,
 either metrics or glyphs, but because of the license clarification,
 the release date/version is explicitly mentioned above.
+
+
+Changes after 2015
+==================
+
+20180124
+
+In agreement with Yannis Haralambous, the following changes were made
+to allow using yinit fonts with dropcaps package. The changes are
+- changing the font identifier to YINIT from CMR
+- changing the font size to the correct value instead of 10pt#
+
+Development has moved to Github: https://github.com/TeX-Live/yinit
+

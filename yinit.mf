@@ -3,10 +3,12 @@
 if unknown cmbase: input cmbase fi
 input yintbase                % -sl   15-3-1991
 
-font_identifier:="CMR"; font_size 10pt#;
+font_identifier:="YINIT";
 
 u#:=160/36pt#;
 v#:=160/36pt#;
+font_size 8.7u#;
+
 width_adj#:=0pt#;    % width adjustment for certain characters
 serif_fit#:=0pt#;    % extra sidebar near lowercase serifs
 cap_serif_fit#:=40/36pt#;  % extra sidebar near uppercase serifs
