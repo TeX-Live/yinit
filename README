@@ -3,10 +3,40 @@ yinit font
 
 Old German decorative capital letters (only)
 
-Version: 2019-01-24
+Version: 2019-03-07
 Public Domain
 
 Created by Yannis Haralambous ca. 1994 as Metafont font.
+The OTF font was created by Yannis Haralambous using 
+the excellent [mf2pt1](https://www.ctan.org/pkg/mf2pt1)
+with only tiny bugfixes afterwards.
+The Yinit.ttf font was created from the OTF font using fontforge
+by Said Achmiz (https://www.saidachmiz.net/). The font was then
+split into one font file per character to make it easier to be used
+on web sites. See the sample yinit.css in outline/split-for-web/.
+The splitting was done by Gwern Branwen (github gwern),
+see https://github.com/TeX-Live/yinit/issues/1
+
+
+Usage
+-----
+
+Usage of the OTF/TTF font
+-------------------------
+Install the fonts in a directory that TeX searches for fonts, then
+use `fontspec', eg in LaTeX:
+
+```
+\usepackage{fontspec}
+\setmainfont{Yinit}
+```
+
+The copyright is (C) Yannis Haralambous, 1994, Public Domain.
+
+
+
+Remarks
+=======
 
 The yinit.pdf font chart was created by running (more or less):
   mf '\mode:=ljfour;input yinit' && gftopk yinit.600pk
@@ -31,6 +61,12 @@ the release date/version is explicitly mentioned above.
 
 Changes after 2015
 ==================
+
+20190307
+
+Inclusion of the OTF font (CTAN package yinit-otf), as well as TTF
+variants and TTF split by character fonts.
+
 
 20190124
 
