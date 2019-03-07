@@ -1,3 +1,8 @@
-The Yinit.ttf font was created from the OTF font using fontforge.
-It was then split into separate fonts for each character for usage
-on web pages, see directory split.
+The Yinit.ttf font was created from the OTF font using fontforge
+by Said Achmiz (https://www.saidachmiz.net/). The font was then
+split into one font file per character to make it easier to be used
+on web sites. The splitting was done by Gwern Branwen (github gwern),
+see https://github.com/TeX-Live/yinit/issues/1
+
+All the files are under the same license as yinit itself, that is
+Public Domain.
